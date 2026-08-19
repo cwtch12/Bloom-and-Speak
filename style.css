@@ -34,32 +34,57 @@ button, input, textarea { font: inherit; }
 .container { width: min(var(--content-width), calc(100% - 2rem)); margin: 0 auto; padding: 0 var(--pad); }
 
 .site-header {
-  background: #ffffff;
-  color: #000000;
+  background: #f4efe6;
+  color: #0d2243;
   backdrop-filter: none;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(13,34,67,0.12);
   position: sticky; top: 0; z-index: 50;
 }
 
-.nav-wrapper { display:flex; align-items:center; justify-content:space-between; min-height:78px; gap:1rem; }
+.nav-wrapper { display:flex; align-items:center; justify-content:space-between; min-height:90px; gap:1rem; }
 
-.brand { display:inline-flex; align-items:center; gap:0.8rem; color:var(--text); }
+.brand {
+  display:inline-flex;
+  align-items:center;
+  gap:0.4rem;
+  color:#0d2243;
+}
+
+.brand-lockup {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.brand-text {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:0.18rem;
+}
+
 .brand strong, .brand small { display:block; }
 .brand strong {
-  font-size:1.18rem;
+  font-size: clamp(1.8rem, 2vw, 2.6rem);
   letter-spacing: 0.02em;
+  line-height: 1;
+  font-weight: 800;
+  color: #0d2243;
 }
 .brand small {
-  color: var(--primary-dark);
-  letter-spacing:0.12em;
+  color: #c2992d;
+  letter-spacing:0.18em;
   text-transform:uppercase;
-  font-size:0.65rem;
+  font-size:0.72rem;
+  font-weight: 800;
 }
 
 .brand-mark {
   display:block;
-  width:72px;
-  height:72px;
+  width:110px;
+  height:110px;
   object-fit:contain;
   border-radius:12px;
   background: transparent;
