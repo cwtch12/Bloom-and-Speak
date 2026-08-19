@@ -45,13 +45,21 @@ button, input, textarea { font: inherit; }
 
 .brand { display:inline-flex; align-items:center; gap:0.8rem; color:var(--text); }
 .brand strong, .brand small { display:block; }
-.brand strong { font-size:1.05rem; }
-.brand small { color:var(--muted); letter-spacing:0.04em; text-transform:uppercase; font-size:0.68rem; }
+.brand strong {
+  font-size:1.18rem;
+  letter-spacing: 0.02em;
+}
+.brand small {
+  color: var(--primary-dark);
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  font-size:0.65rem;
+}
 
 .brand-mark {
   display:block;
-  width:54px;
-  height:54px;
+  width:72px;
+  height:72px;
   object-fit:contain;
   border-radius:12px;
   background: transparent;
