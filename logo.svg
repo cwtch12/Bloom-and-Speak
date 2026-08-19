@@ -1,0 +1,29 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGrad" x1="34" y1="22" x2="184" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F2440"/>
+      <stop offset="1" stop-color="#091A2D"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="51" y1="30" x2="155" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5D98D"/>
+      <stop offset="0.35" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#A57E15"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M110 14L172 34V92C172 143 144 183 110 200C76 183 48 143 48 92V34L110 14Z" fill="url(#shieldGrad)" stroke="url(#goldGrad)" stroke-width="5"/>
+
+  <g opacity="0.9">
+    <path d="M31 68C30 46 44 30 60 28C70 27 76 34 79 40C73 43 66 49 60 58C55 66 49 75 46 86C38 82 33 76 31 68Z" fill="url(#goldGrad)"/>
+    <path d="M189 68C190 46 176 30 160 28C150 27 144 34 141 40C147 43 154 49 160 58C165 66 171 75 174 86C182 82 187 76 189 68Z" fill="url(#goldGrad)"/>
+    <path d="M37 133C36 113 49 96 66 95C74 95 80 101 83 107C77 110 69 116 62 125C57 133 52 142 49 154C42 149 39 141 37 133Z" fill="url(#goldGrad)"/>
+    <path d="M183 133C184 113 171 96 154 95C146 95 140 101 137 107C143 110 151 116 158 125C163 133 168 142 171 154C178 149 181 141 183 133Z" fill="url(#goldGrad)"/>
+  </g>
+
+  <g>
+    <path d="M78 58H111C129 58 142 70 142 86C142 96 138 104 130 109C139 113 146 121 146 136C146 160 128 170 105 170H78V58ZM99 76V96H108C117 96 123 92 123 85C123 78 117 76 108 76H99ZM99 119V151H106C119 151 126 146 126 136C126 124 118 119 106 119H99Z" fill="url(#goldGrad)"/>
+    <path d="M118 58H146V170H118V58Z" fill="url(#goldGrad)" opacity="0.9"/>
+  </g>
+
+  <text x="110" y="136" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="700" letter-spacing="3" fill="url(#goldGrad)">B&amp;S</text>
+</svg>

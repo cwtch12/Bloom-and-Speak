@@ -48,7 +48,16 @@ button, input, textarea { font: inherit; }
 .brand strong { font-size:1.05rem; }
 .brand small { color:var(--muted); letter-spacing:0.04em; text-transform:uppercase; font-size:0.68rem; }
 
-.brand-mark { display:grid; place-items:center; width:42px; height:42px; border-radius:12px; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color:#000000; font-weight:800; font-size:1.2rem; box-shadow:var(--shadow); }
+.brand-mark {
+  display:block;
+  width:54px;
+  height:54px;
+  object-fit:contain;
+  border-radius:12px;
+  background: transparent;
+  box-shadow: none;
+  flex-shrink: 0;
+}
 
 .main-nav { display:flex; align-items:center; }
 .nav-links { list-style:none; display:flex; gap:1.2rem; padding:0; margin:0; align-items:center; }
