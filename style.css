@@ -35,9 +35,9 @@ button, input, textarea { font: inherit; }
 
 .site-header {
   background: #f4efe6;
-  color: #0d2243;
+  color: #0b1f4d;
   backdrop-filter: none;
-  border-bottom: 1px solid rgba(13,34,67,0.12);
+  border-bottom: 1px solid rgba(11,31,77,0.12);
   position: sticky; top: 0; z-index: 50;
 }
 
@@ -46,7 +46,7 @@ button, input, textarea { font: inherit; }
 .brand {
   display:inline-flex;
   align-items:center;
-  color:#0d2243;
+  color:#0b1f4d;
 }
 
 .brand-lockup {
@@ -68,7 +68,7 @@ button, input, textarea { font: inherit; }
   letter-spacing: 0.02em;
   line-height: 1.15;
   font-weight: 800;
-  color: #0d2243;
+  color: #0b1f4d;
 }
 .brand small {
   color: #c2992d;
