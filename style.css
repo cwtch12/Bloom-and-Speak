@@ -46,50 +46,36 @@ button, input, textarea { font: inherit; }
 .brand {
   display:inline-flex;
   align-items:center;
-  gap:0.4rem;
   color:#0d2243;
 }
 
 .brand-lockup {
   display:flex;
-  flex-direction:column;
   align-items:center;
   justify-content:center;
-  text-align:center;
 }
 
 .brand-text {
   display:flex;
   flex-direction:column;
-  align-items:center;
-  gap:0.18rem;
+  align-items:flex-start;
+  gap:0.15rem;
 }
 
 .brand strong, .brand small { display:block; }
 .brand strong {
-  font-size: clamp(1.8rem, 2vw, 2.6rem);
+  font-size: clamp(1.4rem, 2vw, 2.1rem);
   letter-spacing: 0.02em;
-  line-height: 1;
+  line-height: 1.15;
   font-weight: 800;
   color: #0d2243;
 }
 .brand small {
   color: #c2992d;
-  letter-spacing:0.18em;
+  letter-spacing:0.12em;
   text-transform:uppercase;
-  font-size:0.72rem;
+  font-size:0.62rem;
   font-weight: 800;
-}
-
-.brand-mark {
-  display:block;
-  width:110px;
-  height:110px;
-  object-fit:contain;
-  border-radius:12px;
-  background: transparent;
-  box-shadow: none;
-  flex-shrink: 0;
 }
 
 .main-nav { display:flex; align-items:center; }
